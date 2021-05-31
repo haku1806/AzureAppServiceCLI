@@ -6,5 +6,5 @@ Tạo Domain Azure nhanh
 - Tải file contact json:
 wget https://raw.githubusercontent.com/haku1806/AzureAppServiceCLI/main/AppServiceDomain/contact_info.json -O contact.json
 
-- Chạy lệnh tạo domain theo ý bạn | thay your-group thành resource group, your-domain thành tên domain bạn cần tạo
+- Chạy lệnh tạo domain theo ý bạn:
 az appservice domain create -g your-group --hostname your-domain --contact-info=@'contact.json' --accept-terms
