@@ -5,7 +5,7 @@
 - Ở Portal Azure chọn cloudshell ở bên phải thanh tìm kiếm sau đó chọn BASH
 - Nếu có nhiều sub thì phải chọn sub đó:
 ```bash
-az account set --subscription <name>
+az account set --subscription 'name'
 ```
 
 - Tải file contact json:
